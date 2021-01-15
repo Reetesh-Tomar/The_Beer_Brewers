@@ -1,0 +1,170 @@
+
+body{
+    text-align: center;
+    line-height: 2;
+    background-color: rgb(209, 191, 31);
+background-image:
+  linear-gradient(45deg, #ccc 10%, transparent 25%),
+  linear-gradient(-45deg, #ccc 10%, transparent 25%),
+  linear-gradient(45deg, transparent 25%, #ccc 75%),
+  linear-gradient(-45deg, transparent 25%, #ccc 75%);
+background-size:20px 20px;
+background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+/****************TAG SELECTORS*************/
+h1{
+    color: rgb(18, 2, 54);
+    font-family:  fantasy;
+    font-size: 400.5%;
+    margin-top:0%;
+
+    
+        text-decoration: underline;
+        -webkit-text-decoration-color: black;
+        text-decoration-color: black;
+        -webkit-text-decoration-style: wavy;
+        text-decoration-style: wavy
+}
+h3{
+    color:  limegreen;
+    font-family:  monospace;
+    font-size: 20px;
+}
+h1:hover{
+    color: rgb(218, 215, 50);
+}
+.line1{
+    font-size: 20px;
+}
+
+
+/*************CLASS SELECTORS**********/
+.left:hover{
+    color: purple;
+    background-color:  rgba(250, 202, 45, 0.5);
+}
+.right:hover{
+    color: purple;
+    background-color:  rgba(250,202, 45, 0.5);
+   
+}
+.remark{
+    color: rgb(250, 46, 46);
+    margin-top: 0;
+    font-stretch: extra-expanded;
+    font-size: 15px;
+}
+.mid:hover{
+    background-color: rgba(214, 127, 55, 0.644);
+}
+.line1:hover{
+    color: brown;
+}
+.line2:hover{
+    color: black;
+}
+.button1:hover{
+    background-color: gold;
+}
+.button2:hover{
+    background-color: gold;
+}
+.left{
+    width: 50%;
+    text-align: middle;
+    font-size: 20px;
+    color: green;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+}
+.mid{
+    width: 50%;
+    text-align: middle;
+    font-size: 15px;
+    color: green;
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    right: 400px;
+    position: relative;
+    display: inline-block;
+}
+
+.right{
+    width: 50%;
+    text-align: middle;
+    font-size: 20px;
+    color: green;
+    width: 400px;
+    height: 400px; 
+    position: relative;
+    top: 0px;
+    left: 450px;
+    
+    display: inline-block;
+}
+.button1{
+    width: 15%;
+   
+    text-align: middle;
+    font-size: 30px;
+    
+    position: relative;
+    top: 0px;
+    left: 20px;
+    bottom: 80px;
+    margin-bottom: 30px;
+    display: inline-block;
+    
+        background-color: black; /* Green */
+        border: greenyellow;
+       
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+}
+.button2{
+    width: 15%;
+ 
+    text-align: middle;
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    bottom: 80px;
+    display: inline-block;
+    
+        background-color: black; /* Green */
+        border: greenyellow;
+       
+        
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+      
+    
+}
+
+.beer{
+    border-radius: 100%;
+    height: 200px;
+    width: 70%;
+    border-style: inset;
+}
+.beer2{
+    border-radius: 50%;
+    height: 200px;
+    width: 70%;
+    border-style: inset;
+}
+
+/***********DIV*************************/
+

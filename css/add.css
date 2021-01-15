@@ -1,0 +1,109 @@
+body{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+.nav1{
+    padding: 0.5px;
+    text-align: center ;
+    background-color: black;
+    color: white;
+}
+
+
+.nav1:hover{
+    color: gold;
+}
+
+
+h1{
+    color: purple;
+}
+
+h1:hover{
+    color: blue;
+}
+.box0{
+    background-color: rgb(185, 112, 185);
+}
+.box1{
+    background-color: rgb(185, 112, 185);
+}
+.box2{
+    background-color: rgb(185, 112, 185);
+    size: 0em;
+}
+.label1{
+    color: rgb(146, 144, 19);
+    font-size: 20px;
+}
+.label2{
+    font-size: 20px;
+    color: rgb(170, 33, 9);
+    font-style: italic;
+    font-stretch: extra-expanded;
+
+}
+.label3{
+    font-size: 20px;
+    color: rgb(146, 144, 19);
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top:50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 500px;
+}
+
+.button3{
+    width: 5%;
+   
+    text-align: middle;
+    font-size: 30px;
+    color: purple;
+    
+    position: relative;
+    top: 40px;
+    left: 10px;
+    
+    display: inline-block;
+    
+        background-color: black; /* Green */
+       
+        
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+      
+    
+}
+.button4{
+    width: 5%%;
+ 
+    text-align: middle;
+    font-size: 30px;
+
+    color: purple;
+    
+    position: relative;
+    top: 40px;
+    left: 40px;
+    
+    display: inline-block;
+    
+        background-color: black; /* Green */
+      
+
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+      
+}

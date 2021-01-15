@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new container</title>
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="icon" href="css/favicon.ico">
+    <script src="js/add.js"></script>
+</head>
+<body>
+    <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="No image">
+    <div class="nav1">
+    <h1>Add details of <strong>new Beer Container 🍺</strong></h1>
+    </div>
+    <form class="" action="main.html" method="post">
+        <label class="label1">Container Beer type: </label>
+        <input type="text"  name="" value="" class="box0"><br><br>
+        <label class="label2">★Set temperature range★ </label><br><br>
+        
+        <label class="label3">Starting range: </label>
+        <input type="range" min="1" max="100" name="mintemp" value="50" onchange="updateTextInput(this.value, 'mininput');">
+        <input type="text" class="box1" id="mininput" value=""><br><br>
+        <label class="label3">Ending range: </label>
+        <input type="range" min="1" max="100" name="maxtemp" value="50" onchange="updateTextInput(this.value, 'maxinput');">
+        <input type="text" class="box2" id="maxinput" value=""><br><br>
+
+        <button class="button3"><a href="add_container.html">save</a></button>
+        <button class="button4"><a href="index.html">back</a></button>
+    </form>
+    <img class="bottom-cloud" src="images/cloud.png" alt="No image">
+    <img src="images/mountain.png" alt="No image">
+    </div>
+    
+</body>
+</html>

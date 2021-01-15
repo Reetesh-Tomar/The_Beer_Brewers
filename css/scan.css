@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+body{
+    text-align: center;
+    line-height: 2;
+    background-color: rgb(209, 191, 31);
+background-image:
+  linear-gradient(45deg, #ccc 10%, transparent 25%),
+  linear-gradient(-45deg, #ccc 10%, transparent 25%),
+  linear-gradient(45deg, transparent 25%, #ccc 75%),
+  linear-gradient(-45deg, transparent 25%, #ccc 75%);
+background-size:20px 20px;
+background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+.nav1{
+    padding: 2px;
+    text-align:left ;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    top:20px;
+}
+
+.nav1:hover{
+    color: gold;
+}
+
+.back{
+    position: absolute;
+    left: 150px;
+    font-size: 15x;
+    top: 80px;
+    font-weight: normal;
+    width: 5%;
+    text-align: middle;
+    color: purple;
+    display: inline-block;
+        background-color: black; /* Green */
+        text-align: center;
+}
+.box{
+    margin: 20px auto;
+}
+
+.innerbox{
+    margin:20px auto;
+    background-color: black;
+    color: gold;
+}
+
+.alert{
+    margin:20px auto;
+    background-color: red;
+    color: white;
+}
+
+.safe{
+    margin:20px auto;
+    background-color:green;
+    color: white;
+}
